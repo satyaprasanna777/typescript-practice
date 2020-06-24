@@ -1,3 +1,3 @@
 export const endPoints = {
-    postsList: 'posts/'
-} 
+  postsList: 'posts/'
+}
