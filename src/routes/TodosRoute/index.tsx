@@ -11,7 +11,7 @@ import TodoStore from '../../stores/TodoStore'
 
 import { TodosWrapper, RefDemoButton } from './styledComponents'
 
-interface TodosRouteProps {}
+interface TodosRouteProps { }
 
 interface InjectedProps extends TodosRouteProps {
   todoStore: TodoStore
