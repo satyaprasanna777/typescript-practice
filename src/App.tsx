@@ -5,7 +5,7 @@ import { Provider } from 'mobx-react'
 import HomeRoute from './routes/HomeRoute'
 import SampleRoute from './routes/SampleRoute'
 
-// import stores from './stores'
+import stores from './stores'
 
 import {
   HOME_ROUTE_PATH,
@@ -15,7 +15,7 @@ import {
 import TodosRoute from './routes/TodosRoute'
 import PostsRoute from './posts/routes/PostsRoute'
 import { POSTS_ROUTE_PATH } from './posts/constants/NavigationConstants'
-import stores from './posts/stores'
+// import stores from './posts/stores'
 
 const App = () => {
   return (

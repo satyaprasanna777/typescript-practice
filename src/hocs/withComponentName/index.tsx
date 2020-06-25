@@ -3,6 +3,7 @@ import React from 'react'
 import { HOCWrapper, ComponentName } from './styledComponents'
 
 function getDisplayName(WrappedComponent) {
+  console.log("displayName:", WrappedComponent)
   return WrappedComponent.displayName || WrappedComponent.name || 'Component'
 }
 
